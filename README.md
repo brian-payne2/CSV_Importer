@@ -1,5 +1,5 @@
 # CSV_Importer
-Python utility to parse all values in a CSV file into a dictionary, then filter out distinct columns that have matching value pairs.
+Python utility to parse all values in a CSV file into a dictionary, then filter out purchases that contained multiple items.
 
 ### Requirements
 Python 3.6 installed and configured in your path
