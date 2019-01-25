@@ -3,6 +3,11 @@ import csv
 import pprint
 import sys
 
+# Usage
+if len(sys.argv) != 2:
+	print("Improper number of parameters passed in.\nPlease include the name of the CSV file as a parameter. Example:\npython CSV_Importer.py dummy.csv")
+	sys.exit(2)
+
 # global variables
 file_name = sys.argv[1]
 purchases = {}
