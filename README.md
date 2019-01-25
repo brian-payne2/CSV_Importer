@@ -7,12 +7,10 @@ Python 3.6 installed and configured in your path
 ### Use
 1. Navigate your CLI to the directory where this script is cloned.
 
-2. Configure the script to point to the CSV file desired (line 11)
-
-3. Run the script
+2. Run the script, passing in the name of the CSV file
 
 ```
-python CSV_Importer
+python CSV_Importer csv_file_name.csv
 ```
 
 This will output a dictionary of all values in the configured CSV file that have more than one product_id for each purchase_id.
