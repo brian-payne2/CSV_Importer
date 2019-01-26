@@ -7,7 +7,7 @@ Python 3.6 installed and configured in your path
 ### Use
 1. Navigate your CLI to the directory where this script is cloned.
 
-2. Run the script, passing in the name of the CSV file
+2. Run the script, passing in the name of the CSV file (assumed in same directory)
 
 ```
 python CSV_Importer csv_file_name.csv
